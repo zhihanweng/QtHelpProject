@@ -1,0 +1,2 @@
+# QtHelpProject
+使用doxygen产生html文件，利用qt的assistant产生帮助文档
