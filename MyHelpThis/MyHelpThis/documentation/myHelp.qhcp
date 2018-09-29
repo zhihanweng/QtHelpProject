@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312"?>
+<QHelpCollectionProject version="1.0">
+  <assistant>
+    <title>图书管理客户端帮助文档</title>
+    <applicationIcon>images/lib.png</applicationIcon>
+    <cacheDirectory>cache/myhelp</cacheDirectory>
+    <homePage>qthelp://bookmisClient.myhelp/doc/index.html</homePage>
+    <startPage>qthelp://bookmisClient.myhelp/doc/index.html</startPage>
+    <aboutMenuText>
+      <text>关于</text>
+    </aboutMenuText>
+    <aboutDialog>
+      <file>./about.txt</file>
+      <icon>images/lib.png</icon>
+    </aboutDialog>
+    <enableDocumentationManager>false</enableDocumentationManager>
+    <enableAddressBar>false</enableAddressBar>
+    <enableFilterFunctionality>false</enableFilterFunctionality>
+  </assistant>
+  <docFiles>
+    <generate>
+      <file>
+        <input>myhelp.qhp</input>
+        <output>myhelp.qch</output>
+      </file>
+    </generate>
+    <register>
+      <file>myhelp.qch</file>
+    </register>
+  </docFiles>
+</QHelpCollectionProject>
