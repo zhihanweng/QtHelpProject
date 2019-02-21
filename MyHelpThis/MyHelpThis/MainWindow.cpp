@@ -1,4 +1,4 @@
-#include "Mainwindow.h"
+#include "MainWindow.h"
 #include "ui_mainwindow.h"
 #include "Assistant.h"
 
@@ -18,6 +18,16 @@ MainWindow::~MainWindow()
 {
     delete ui;
     delete pAssistant;
+}
+
+int MainWindow::pub(int iPub)
+{
+    return iPub;
+}
+
+bool MainWindow::pro(bool bPro)
+{
+    return bPro;
 }
 
 void MainWindow::startAssistant()
